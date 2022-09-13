@@ -1,0 +1,57 @@
+
+.horizontal-menu
+	.top-navbar
+	.navbar-brand-wrapper
+	.navbar-brand.brand-logo-mini
+	img {
+	width: 70px !important;
+	max-width: 100%;
+	margin: auto;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ebedf2;
+    background: #e4e9f099;
+    border-radius: 5px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	color: #eeeeee !important;
+	background-color: #2879c1;
+	border-color: #333333;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ebedf2;
+    background: #e4e9f099;
+    border-radius: 5px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+	width: 60px;
+}
+
+.card1 .card-title {
+	color: #313131;
+	margin-bottom: 0.75rem;
+	text-transform: capitalize;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: #2879c1 !important;
+	color: #ffff !important;
+	padding: 30px !important;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+	cursor: pointer;
+	margin-right: 10px !important;
+}
+
+/* .col-lg-6 .d-flex .align-items-center .justify-content-center{
+
+	background-image:url(../images/login_back.png);
+} */
